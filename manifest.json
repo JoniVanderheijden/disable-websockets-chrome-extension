@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Disable WebSockets",
+  "version": "0.0.1",
+  "action": {
+    "default_icon": {
+      "16": "images/logo-websockets16.png",
+      "24": "images/logo-websockets24.png",
+      "32": "images/logo-websockets32.png"
+    },
+    "default_title": "Disable WebSockets"
+  },
+  "description": "Chrome extension to disable WebSockets",
+  "icons": {
+    "16": "images/logo-websockets16.png",
+    "32": "images/logo-websockets32.png",
+    "48": "images/logo-websockets48.png",
+    "128": "images/logo-websockets128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
